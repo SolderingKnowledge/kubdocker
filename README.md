@@ -12,3 +12,9 @@ Kubernetes with docker app.
 `docker run redis` run redis in different shell 
 
 `docker-compose up`
+
+`docker run -it <repo>/<projectname> sh` to go inside container shell
+
+`docker system prune` delete all not working containers
+
+`docker logs <containerid>`
