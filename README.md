@@ -5,7 +5,7 @@ Kubernetes with docker app.
 
 `docker build .`
 
-`docker build -t <dockerid>/<projectname>:latest .`
+`docker build -t <dockerid>/<apname>:latest .`
 
 `docker run <dockerid>/<projectname>`
 
@@ -18,3 +18,7 @@ Kubernetes with docker app.
 `docker system prune` delete all not working containers
 
 `docker logs <containerid>`
+
+`docker stop <containterid>`
+
+`docker kill <containterid>`
