@@ -13,6 +13,14 @@ Kubernetes with docker app.
 
 `docker-compose up`
 
+`docker-compose up --build`
+
+`docker compose up -d` launch multiple containers
+
+`docker compose up down` stop
+
+`docker run -d redis`
+
 `docker run -it <repo>/<projectname> sh` to go inside container shell
 
 `docker system prune` delete all not working containers
